@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Shop Design</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headImages">
+            <nav class="headImages__container">
+                <div class="headImages__rightPart"> 
+                    <button class="headImages__button"> <img src="./images/icon-menu.svg" class="headImages__button--menu" alt="three bars showing the menu icon"/></button>
+                    <img src="./images/logo.svg" class="headImages__logo" alt="text SNEAKERS  is logo"/>
+                    <div class="headTab"> 
+                        <a class="headTab__links" href="#">Collections</a>
+                        <a class="headTab__links" href="#">Men</a>
+                        <a class="headTab__links" href="#">Women</a>
+                        <a class="headTab__links" href="#">About</a>
+                        <a class="headTab__links" href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="headImages__leftPart"> 
+                    <a class="headImages__link" href="#"><img src="./images/icon-cart.svg" class="headImages__link--basket" alt="the basket icon"/></a>
+                    <a class="headImages__link" href="#"><img src="./images/image-avatar.png" class="headImages__link--avatar" alt="the picture of person showing customer avatar"/></a>
+                </div>
+            </nav>
+        </div>
+        <div class="contentPart">
+            <div class="contentPart__mainIMG"> 
+                <div class="contentPart__IMGofProduct">
+                    <img src="./images/image-product-1.jpg" class="contentPart__Photo"/>
+                    <button class="contentPart__button contentPart__button--buttonLeft"> <img src="./images/icon-previous.svg" class="IMGofProduct__button--previous" alt="the icon previous photo" /> </button>
+                    <button class="contentPart__button contentPart__button--buttonRight"> <img src="./images/icon-next.svg" class="IMGofProduct__button--next" alt="the icon next photo" /></button>
+                    <div class="photoOfProduct"> 
+                        <button class="photoOfProduct__choice photoOfProduct__choice--selected"> <img src="./images/image-product-1-thumbnail.jpg" class="photoOfProduct__ButtonChoice" alt="the product shooted by different side" /></button>
+                        <button class="photoOfProduct__choice"> <img src="./images/image-product-2-thumbnail.jpg" class="photoOfProduct__ButtonChoice" alt="the product shooted by different side" /></button>
+                        <button class="photoOfProduct__choice"> <img src="./images/image-product-3-thumbnail.jpg" class="photoOfProduct__ButtonChoice" alt="the product shooted by different side" /></button>
+                        <button class="photoOfProduct__choice"> <img src="./images/image-product-4-thumbnail.jpg" class="photoOfProduct__ButtonChoice" alt="the product shooted by different side" /></button>
+                    </div>
+                </div>
+            </div>
+            <div class="textPart">
+                <p class="textPart__nameOfCompany">SNEAKER COMPANY</p>
+                <h1 class="textPart__limitedEdition">Fall Limited Edition Sneakers</h1>
+                <p class="textPart__productDescription">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                <div class="textPart__price">
+                    <div class="textPart__currentlyPrice">$125.00</div>
+                    <div class="textPart__discountPrice"><div class="textPart__discount">50%</div></div>
+                    <div class="textPart__previousPrice">$250.00</div>
+                </div>
+                <div class="numberAndButton">
+                    <div class="numberAndButton__numberOfThings">
+                        <button class="numberAndButton__artikle numberOfThings__less"><img src="./images/icon-minus.svg" alt="add less products icon minus" /></button>
+                        <input type="number of things" name="number" placeholder="0" class="numberOfThings_currentIndicator">
+                        <button class="numberAndButton__artikle numberOfThings__more"><img src="./images/icon-plus.svg" alt="add more products icon plus"/></button>
+                    </div>
+                    <button class="numberAndButton__addToCard"> <svg viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg"  class="addToCard_svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill="#ffffff" fill-rule="nonzero"/></svg> Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

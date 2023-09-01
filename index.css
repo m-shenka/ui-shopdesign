@@ -1,0 +1,462 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body { 
+    margin: 0 auto;
+   
+}
+
+div {
+    box-sizing: border-box;   
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headImages {
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: start;
+    width: 100%;   
+}
+
+.headImages__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.headImages__button {
+    border: none;
+    background: none;
+  
+}
+
+.headImages__button--menu {
+    height: 15px;
+    width: 16px;
+    margin-right: 9px;
+    padding: 4px 0px;
+
+}
+
+.headTab :last-child {
+    margin-right: 0px;
+}
+
+.headImages__logo {
+    height: 20px;
+    width: 140px;
+    margin-right: 85px;
+}
+
+.headImages__link--basket {
+    height: 20px;
+    width: 22px;
+    padding: 3px;
+    margin-right: 18px;
+}
+
+.headImages__link--avatar {
+    height: 26px;
+    width: 26px;
+}
+
+.contentPart__Photo {
+    width: 100%;
+    height: 303px;
+}
+
+
+.contentPart__IMGofProduct {
+    position: relative;
+}
+
+.contentPart__button {
+    position: absolute;
+    top: 44%;
+    border-radius: 50%;
+    padding: 12px 15px;
+    border: none;
+}
+
+.contentPart__button--buttonLeft {
+    left: 20px;
+}
+
+.contentPart__button--buttonRight {
+    right: 20px;
+}
+
+.textPart__nameOfCompany { 
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: hsl(26, 100%, 55%);
+   
+}
+
+.textPart {
+    padding: 10px 23px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.textPart__limitedEdition {
+    font-size: 29px;
+    line-height: 35px;
+    margin: 0px;
+}
+
+.textPart__productDescription {
+    line-height: 24px;
+    margin-bottom: 24px;
+
+}
+
+.textPart__price {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.textPart__currentlyPrice {
+    font-size: 29px;
+    margin-right: 18px;
+}
+
+.textPart__discountPrice {
+    display: flex;
+    align-items: center;
+}
+
+.textPart__discount {
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(26, 100%, 55% , 0.1);
+    border-radius: 6px;
+    padding: 5px 10px; 
+    margin-right: 90px;
+}
+
+.textPart__previousPrice {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    text-decoration: line-through;
+    opacity: 25%;
+}
+
+.numberAndButton__numberOfThings{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+
+.numberOfThings_currentIndicator {
+    padding: 20px 10px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color:  hsl(223, 64%, 98%);
+    width: 100%;
+}
+
+.numberAndButton__addToCard {
+    width: 100%;
+    height: 55px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 1px 20px 20px 5px hsl(26, 100%, 53%, 0.2);
+}
+
+.addToCard_svg {
+    width: 17px;
+    margin-right: 11px;
+}
+
+.headTab__links {
+    display: none;
+}
+
+.photoOfProduct__choice {
+    display: none;
+}
+
+.headImages__rightPart {
+    display: flex;
+    flex-direction: row;
+}
+
+.headImages__leftPart {
+    display: flex;
+    flex-direction: row;
+}
+
+.numberAndButton__artikle {
+    border: none;
+    background: none;
+}
+
+.numberOfThings__less {
+    position: absolute;
+    top: 40%;
+    left: 21px;
+}
+
+.numberOfThings__more {
+    position: absolute;
+    top: 34%;
+    right: 18px;
+}
+
+button:hover {
+   cursor: pointer;
+}
+
+
+@media only screen and (min-width: 900px) {
+    
+    .container {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        background-color: white;
+        width:100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .headImages__container {
+        max-width: 1115px;
+        margin: 0 auto;
+    }
+
+    .contentPart__mainIMG {
+        flex: 1 0 50%;
+    }
+
+    .textPart {
+        flex: 1 0 50%;
+    }
+
+    .contentPart {
+        display: flex;
+        flex-direction: row;
+        max-width: 1015px;
+        margin: 0 auto;
+        padding: 108px 20px;
+    }
+
+    .headTab__links {
+        display: inline;
+        background: none;
+        border: 0px;
+        color: gray;
+        font-size: 16px;
+        font-family: 'Kumbh Sans', sans-serif;
+        text-decoration: none;
+        margin-right: 29px;
+    }
+    
+    .headImages__button {
+        display: none;
+    }
+
+    .headImages__logo {
+        height: 23px;
+        width: 143px; 
+        margin-right: 55px; 
+    }
+
+    .headImages__link--basket {
+        padding-top: 7px;
+        margin-right: 44px;
+
+    }
+
+    .headImages__link--basket {
+        height: 23px;
+        width: 23px;
+        
+    }
+    
+    .headImages__link--avatar {
+        height: 52px;
+        width: 52px;
+        margin-top: -8px;
+    }
+
+    .headImages__link    {
+        margin-top: -7px;
+    }
+   
+    .contentPart__IMGofProduct {
+        padding: 0px 63px 15px 0px;
+    }
+
+    .contentPart__IMGofProduct > img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .contentPart__button {
+        display: none;
+    }
+
+    .photoOfProduct {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 30px 8px;
+        
+    }
+
+    .photoOfProduct__choice {
+        display: flex;
+        background: none;
+        border: none; 
+        border-radius: 15px;
+    }
+
+    .photoOfProduct__choice:first-child {
+        margin-left: 0px;
+    }
+
+    .photoOfProduct__choice:last-child {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .photoOfProduct__choice > img {
+        border-radius: 10px;
+
+    }
+
+    .headImages__rightPart {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .headImages__leftPart {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .headImages__container {
+        justify-content: space-between;
+    }
+
+    .photoOfProduct__choice--selected > img {
+        opacity: 0.3;
+
+    }
+
+    .textPart {
+        padding: 50px 62px;
+    }
+
+
+    .textPart__limitedEdition {
+        font-size: 42px;
+        line-height: 45px;
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+
+    .textPart__nameOfCompany {
+        margin-bottom: 22px;
+    }
+
+    .textPart__productDescription {
+        line-height: 24px;
+        margin-bottom: 28px; 
+    }
+
+    .textPart__currentlyPrice {
+        margin-bottom: 7px;
+    }
+
+
+    .textPart__price {
+        flex-wrap: wrap;
+        margin-bottom: 36px;
+    }
+
+    .textPart__previousPrice {
+        font-size: 17px;
+        text-decoration: line-through;
+        opacity: 25%;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .numberAndButton__numberOfThings {
+        height: 56px;
+        width: 31%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 11px;
+        margin-right: 18px;
+    }
+
+    .numberAndButton__addToCard {
+        width: 53%;
+        box-shadow: 1px 20px 30px 4px hsl(26, 100%, 53%, 0.2);
+
+    }
+
+    .numberAndButton {
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .numberOfThings_currentIndicator {
+        margin: 0px 0px;
+        
+    }
+
+    .photoOfProduct__choice--selected {
+        border: 3px solid hsl(26, 100%, 55%);
+        padding: 0px;
+        
+    }
+
+    .textPart__discount {
+        margin: 0px -2px;
+    }
+ 
+    .numberOfThings__less {
+        top: 44%;
+        left: 7px;
+    }
+    
+    .numberOfThings__more {
+        top: 38%;
+        right: 13px;
+    }
+}
